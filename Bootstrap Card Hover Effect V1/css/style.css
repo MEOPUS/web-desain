@@ -1,0 +1,632 @@
+/*------------------------------------------------------------------
+    [Banner Image v6]
+------------------------------------------------------------------*/
+.banner-img-v6 {
+  background: url(../img/7.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/*--------------------------------------------------
+    [Content]
+----------------------------------------------------*/
+.content-xs {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.content-sm {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.content-md {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.content-lg {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.content-xl {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.content-el {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+/*--------------------------------------------------
+    [Full Width Container]
+----------------------------------------------------*/
+.full-width-container {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.full-width-container:before,
+.full-width-container:after {
+  content: " ";
+  display: table;
+}
+
+.full-width-container:after {
+  clear: both;
+}
+
+/*--------------------------------------------------
+    [Container Extra Small]
+----------------------------------------------------*/
+.container-xs {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-xs:before,
+.container-xs:after {
+  content: " ";
+  display: table;
+}
+
+.container-xs:after {
+  clear: both;
+}
+
+/* Media Queries below 768px */
+@media (min-width: 768px) {
+  .container-xs {
+    width: 750px;
+  }
+}
+
+/*--------------------------------------------------
+    [Container Small]
+----------------------------------------------------*/
+.container-sm {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-sm:before,
+.container-sm:after {
+  content: " ";
+  display: table;
+}
+
+.container-sm:after {
+  clear: both;
+}
+
+/* Media Queries below 768px */
+@media (min-width: 768px) {
+  .container-sm {
+    width: 750px;
+  }
+}
+
+/* Media Queries below 1200px */
+@media (min-width: 1200px) {
+  .container-sm {
+    width: 970px;
+  }
+}
+
+/*------------------------------------------------------------------
+    [Heading v1]
+------------------------------------------------------------------*/
+.heading-v1 .heading-v1-title {
+  font-size: 28px;
+  font-style: italic;
+  font-family: Droid Serif, serif;
+}
+
+.heading-v1 .heading-v1-subtitle {
+  max-width: 350px;
+  font-size: 16px;
+  font-style: italic;
+  font-family: Droid Serif, serif;
+  color: #00bcd4;
+  margin-bottom: 20px;
+}
+
+.heading-v1 .heading-v1-text {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+/* White Version */
+.heading-v1.heading-v1-white .heading-v1-title {
+  color: #fff;
+}
+
+.heading-v1.heading-v1-white .heading-v1-text {
+  color: #fff;
+  opacity: 0.8;
+}
+
+/*--------------------------------------------------
+    [Text Align]
+----------------------------------------------------*/
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Media Queries under 992px */
+@media (max-width: 992px) {
+  .md-text-center {
+    text-align: center;
+  }
+
+  .md-text-left {
+    text-align: left;
+  }
+
+  .md-text-right {
+    text-align: right;
+  }
+}
+
+/* Media Queries under 768px */
+@media (max-width: 768px) {
+  .sm-text-center {
+    text-align: center;
+  }
+
+  .sm-text-left {
+    text-align: left;
+  }
+
+  .sm-text-right {
+    text-align: right;
+  }
+}
+
+/* Media Queries under 480px */
+@media (max-width: 480px) {
+  .xs-text-center {
+    text-align: center;
+  }
+
+  .xs-text-left {
+    text-align: left;
+  }
+
+  .xs-text-right {
+    text-align: right;
+  }
+}
+
+/*--------------------------------------------------
+    [Center Aligned Block]
+    Center align a block level element
+----------------------------------------------------*/
+.center-block {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Media Queries below 992px */
+@media (max-width: 992px) {
+  .md-center-block {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Media Queries below 768px */
+@media (max-width: 768px) {
+  .sm-center-block {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Media Queries below 480px */
+@media (max-width: 480px) {
+  .xs-center-block {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*--------------------------------------------------
+    [Content]
+----------------------------------------------------*/
+.content-xs {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.content-sm {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.content-md {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.content-lg {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.content-xl {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.content-el {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+/*------------------------------------------------------------------
+    [Bottom margin]
+------------------------------------------------------------------*/
+.margin-b-0 {
+  margin-bottom: 0 !important;
+}
+
+.margin-b-5 {
+  margin-bottom: 5px !important;
+}
+
+.margin-b-10 {
+  margin-bottom: 10px !important;
+}
+
+.margin-b-10 {
+  margin-bottom: 10px !important;
+}
+
+.margin-b-20 {
+  margin-bottom: 20px !important;
+}
+
+.margin-b-30 {
+  margin-bottom: 30px !important;
+}
+
+.margin-b-40 {
+  margin-bottom: 40px !important;
+}
+
+.margin-b-50 {
+  margin-bottom: 50px !important;
+}
+
+.margin-b-60 {
+  margin-bottom: 60px !important;
+}
+
+.margin-b-70 {
+  margin-bottom: 70px !important;
+}
+
+.margin-b-80 {
+  margin-bottom: 80px !important;
+}
+
+.margin-b-90 {
+  margin-bottom: 90px !important;
+}
+
+.margin-b-100 {
+  margin-bottom: 100px !important;
+}
+
+/*------------------------------------------------------------------
+    [No padding, margin space]
+------------------------------------------------------------------*/
+.no-space {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* No padding, margin space above 992px */
+@media (min-width: 992px) {
+  .md-no-space {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+/* No Space in a row class */
+.no-space-row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.no-space-row>[class*="col-"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* 5px Space in a row class */
+.space-row-5 {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+.space-row-5>[class*="col-"] {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* 10px Space in a row class */
+.space-row-10 {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.space-row-10>[class*="col-"] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*--------------------------------------------------
+    [Serviecs v4]
+----------------------------------------------------*/
+.services-v4 {
+  position: relative;
+  padding: 20px;
+}
+
+.services-v4:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  transform: scale(1, 1);
+  content: " ";
+  transition-duration: 400ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.services-v4 .services-v4-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  z-index: 2;
+  text-decoration: none;
+}
+
+.services-v4 .services-v4-media {
+  max-width: 90px;
+  min-width: 90px;
+}
+
+.services-v4 .services-v4-media .services-v4-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.services-v4 .services-v4-body {
+  position: relative;
+  z-index: 1;
+}
+
+.services-v4 .services-v4-body .services-v4-content {
+  overflow: hidden;
+}
+
+.services-v4 .services-v4-body .services-v4-title,
+.services-v4 .services-v4-body .services-v4-text,
+.services-v4 .services-v4-body .services-v4-learn {
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.services-v4 .services-v4-body .services-v4-title {
+  font-size: 24px;
+  color: #fff;
+  margin: 0 0 10px;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.services-v4 .services-v4-body .services-v4-text {
+  color: #fff;
+  opacity: 1;
+  margin-bottom: 5px;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.services-v4 .services-v4-body .services-v4-learn {
+  font-weight: 500;
+  display: block;
+  color: #34343c;
+  opacity: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  font-weight: bold;
+}
+
+.services-v4:hover:before {
+  background: white;
+  -webkit-transform: scale(1.075, 1.075);
+  -moz-transform: scale(1.075, 1.075);
+  transform: scale(1.075, 1.075);
+  transition-duration: 400ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.services-v4:hover .services-v4-title,
+.services-v4:hover .services-v4-text,
+.services-v4:hover .services-v4-learn {
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.services-v4:hover .services-v4-title {
+  color: #34343c;
+  opacity: 0;
+  -webkit-transform: translate3d(0, -100%, 0);
+  -moz-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+}
+
+.services-v4:hover .services-v4-text {
+  color: #606060;
+  -webkit-transform: translate3d(0, -50%, 0);
+  -moz-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+}
+
+.services-v4:hover .services-v4-learn {
+  margin-bottom: 0;
+  opacity: 1;
+  -webkit-transform: translate3d(0, -100%, 0);
+  -moz-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+}
+
+/*--------------------------------------------------
+    [Border radius]
+----------------------------------------------------*/
+.radius-0 {
+  border-radius: 0 !important;
+}
+
+.radius-3 {
+  border-radius: 3px !important;
+}
+
+.radius-5 {
+  border-radius: 5px !important;
+}
+
+.radius-6 {
+  border-radius: 6px !important;
+}
+
+.radius-7 {
+  border-radius: 7px !important;
+}
+
+.radius-8 {
+  border-radius: 8px !important;
+}
+
+.radius-9 {
+  border-radius: 9px !important;
+}
+
+.radius-10 {
+  border-radius: 10px !important;
+}
+
+.radius-20 {
+  border-radius: 20px !important;
+}
+
+.radius-30 {
+  border-radius: 30px !important;
+}
+
+.radius-40 {
+  border-radius: 40px !important;
+}
+
+.radius-50 {
+  border-radius: 50px !important;
+}
+
+.radius-circle {
+  border-radius: 50% !important;
+}
+
+/*--------------------------------------------------
+    [Horizontal Center Aligned Content above 768px]
+    Set displays an element as in inline-level flex container
+----------------------------------------------------*/
+/* Media Queries above 768px */
+@media (min-width: 768px) {
+  .center-content-hor-wrap-sm {
+    display: table;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  .center-content-hor-align-sm {
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+  }
+
+  .center-content-hor-align-sm.center-content-hor-align-sm-width-xs {
+    min-width: 150px;
+  }
+
+  .center-content-hor-align-sm.center-content-hor-align-sm-width-sm {
+    min-width: 250px;
+  }
+
+  .center-content-hor-align-sm.center-content-hor-align-sm-width-md {
+    min-width: 300px;
+  }
+}
+
+/* Media Queries below 768px */
+@media (max-width: 768px) {
+  .center-content-hor-align-sm {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+}
