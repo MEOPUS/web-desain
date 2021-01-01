@@ -1,0 +1,111 @@
+.bg-color-sky-light {
+  background: #f7f8fa !important;
+}
+.content-md {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+/*------------------------------------------------------------------
+    [Heading v1]
+------------------------------------------------------------------*/
+.heading-v1 .heading-v1-title {
+  font-size: 28px;
+  font-style: italic;
+  font-family: Droid Serif, serif;
+}
+
+.heading-v1 .heading-v1-subtitle {
+  max-width: 350px;
+  font-size: 16px;
+  font-style: italic;
+  font-family: Droid Serif, serif;
+  color: #00bcd4;
+  margin-bottom: 20px;
+}
+
+.heading-v1 .heading-v1-text {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+/* White Version */
+.heading-v1.heading-v1-white .heading-v1-title {
+  color: #fff;
+}
+
+.heading-v1.heading-v1-white .heading-v1-text {
+  color: #fff;
+  opacity: 0.8;
+}
+
+/*------------------------------------------------------------------
+    [List Inline]
+------------------------------------------------------------------*/
+.list-inline {
+  /* margin-left: 0; */
+}
+
+
+/*--------------------------------------------------
+    [Clients v1]
+----------------------------------------------------*/
+.clients-v1 {
+  margin-bottom: 0;
+}
+
+.clients-v1 .clients-v1-item {
+  position: relative;
+  width: 135px;
+  height: 135px;
+  overflow: hidden;
+  border-radius:50px
+}
+
+.clients-v1 .clients-v1-item .clients-v1-img {
+  display: block;
+  width: 135px;
+  height: 135px;
+  text-align: center;
+}
+
+.clients-v1 .clients-v1-item .clients-v1-img-default {
+  opacity: 1;
+  background: #34343c;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.clients-v1 .clients-v1-item .clients-v1-img-active {
+  opacity: 0;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.clients-v1 .clients-v1-item:hover .clients-v1-img-default {
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.clients-v1 .clients-v1-item:hover .clients-v1-img-active {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
